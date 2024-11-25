@@ -172,7 +172,7 @@ public class ConfigSRV implements IConfigSRV {
 
     @Override
     public long getRefreshRate() {
-        return 300_000L;
+        return 200_000L;
     }
 
     private static final class Locks {
